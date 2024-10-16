@@ -11,4 +11,5 @@ router.get('/about', (req, res) => {
   res.send('This is the About Page');
 });
 
+// export the routes as a module
 module.exports = router;
